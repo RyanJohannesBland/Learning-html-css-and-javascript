@@ -1,0 +1,33 @@
+*{
+    overflow: hidden;
+}
+
+#myCanvas{
+    z-index: 0;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    margin:0px;
+    padding:0px;
+}
+
+.audio{
+    z-index: 100;
+    position: absolute;
+    top:20px;
+    right: 40px;
+    size: 300px 800px;
+}
+
+.quote{
+    z-index: 100;
+    position: absolute;
+    top:10px;
+    left:50px;
+    height: 640px;
+    width:300px;
+    color:rebeccapurple;
+    opacity: 0.75;
+    background:whitesmoke;
+    padding:10px;
+}
